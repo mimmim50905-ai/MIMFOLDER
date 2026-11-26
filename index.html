@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIM | Dream · Learn · Grow</title>
+  <meta name="description" content="MIM. Dream, Learn, Grow.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body id="home">
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="wrap">
+      <span>Welcome to MIM</span>
+      <span>Dream · Learn · Grow</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="wrap header-row">
+      <a class="logo" href="#home"><img src="assets/logo.png" alt="MIM logo"></a>
+
+      <!-- Search box is for design only (a working search needs JavaScript or a server) -->
+      <form class="search" onsubmit="return false">
+        <input type="search" placeholder="Search in MIM..." aria-label="Search">
+        <button type="button">Search</button>
+      </form>
+
+      <nav class="actions">
+        <a href="#featured">Offers</a>
+        <a href="#about">About Me</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="burger" aria-label="Menu">☰</label>
+      <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#featured">Offers</a>
+        <a href="#new">New Arrival</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <nav class="catnav">
+      <div class="wrap">
+        <a href="#home">Home</a>
+        <a href="#categories">Fashion</a>
+        <a href="#categories">Beauty</a>
+        <a href="#categories">Learning</a>
+        <a href="#categories">Gifts</a>
+        <a href="#categories">New In</a>
+        <a href="#categories">Favourites</a>
+        <a href="#new">New Arrival</a>
+        <a href="#about">About Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== BANNER SLIDER (CSS only) ===== -->
+    <section class="wrap slider" aria-label="Highlights">
+      <div class="slides">
+        <div class="slide s1">
+          <div class="slide-text">
+            <h1>Dream. Learn. Grow.</h1>
+            <p>Welcome to the world of MIM.</p>
+            <a class="btn btn-gold" href="#featured">Explore Now</a>
+          </div>
+          <div class="slide-art"><img src="assets/logo.png" alt=""></div>
+        </div>
+        <div class="slide s2">
+          <div class="slide-text">
+            <h2>Fresh New Arrivals</h2>
+            <p>See what is new this season.</p>
+            <a class="btn btn-gold" href="#new">View New</a>
+          </div>
+          <div class="slide-art"><img src="assets/item1.jpg" alt=""></div>
+        </div>
+        <div class="slide s3">
+          <div class="slide-text">
+            <h2>Meet MIM</h2>
+            <p>The person behind the brand.</p>
+            <a class="btn btn-gold" href="#about">About Me</a>
+          </div>
+          <div class="slide-art"><img src="assets/photo.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURE STRIP ===== -->
+    <section class="wrap features">
+      <div><span>💎</span>Quality Picks</div>
+      <div><span>🚚</span>Home Delivery</div>
+      <div><span>💳</span>Easy Payment</div>
+      <div><span>💬</span>Friendly Support</div>
+      <div><span>🌱</span>Learn &amp; Grow</div>
+    </section>
+
+    <!-- ===== FEATURED ===== -->
+    <section class="wrap section" id="featured">
+      <div class="title"><h2>Exclusive</h2><a href="#contact">Ask for details →</a></div>
+      <div class="grid">
+        <article class="card">
+          <span class="badge">Hot</span>
+          <img src="assets/item1.jpg" alt="Item 1" loading="lazy">
+          <h3>Item name 1</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+        <article class="card">
+          <span class="badge">Hot</span>
+          <img src="assets/item2.jpg" alt="Item 2" loading="lazy">
+          <h3>Item name 2</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+        <article class="card">
+          <span class="badge">Hot</span>
+          <img src="assets/item3.jpg" alt="Item 3" loading="lazy">
+          <h3>Item name 3</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+        <article class="card">
+          <span class="badge">Hot</span>
+          <img src="assets/item4.jpg" alt="Item 4" loading="lazy">
+          <h3>Item name 4</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CATEGORIES ===== -->
+    <section class="wrap section" id="categories">
+      <div class="title"><h2>Featured Categories</h2></div>
+      <div class="cats">
+        <a class="cat" href="#featured"><span aria-hidden="true">👑</span>Fashion</a>
+        <a class="cat" href="#featured"><span aria-hidden="true">🦋</span>Beauty</a>
+        <a class="cat" href="#featured"><span aria-hidden="true">📚</span>Learning</a>
+        <a class="cat" href="#featured"><span aria-hidden="true">🎁</span>Gifts</a>
+        <a class="cat" href="#featured"><span aria-hidden="true">✨</span>New In</a>
+        <a class="cat" href="#featured"><span aria-hidden="true">💜</span>Favourites</a>
+      </div>
+    </section>
+
+    <!-- ===== PROMO BANNERS ===== -->
+    <section class="wrap promos">
+      <div class="promo p1"><h3>Dream Big</h3><p>Ideas that inspire you.</p><a href="#featured">Explore →</a></div>
+      <div class="promo p2"><h3>Keep Growing</h3><p>Something new to discover.</p><a href="#new">Discover →</a></div>
+    </section>
+
+    <!-- ===== NEW ARRIVAL ===== -->
+    <section class="wrap section" id="new">
+      <div class="title"><h2>New Arrival</h2><a href="#contact">Ask for details →</a></div>
+      <div class="grid">
+        <article class="card">
+          <span class="badge">New</span>
+          <img src="assets/item5.jpg" alt="Item 5" loading="lazy">
+          <h3>Item name 5</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+        <article class="card">
+          <span class="badge">New</span>
+          <img src="assets/item6.jpg" alt="Item 6" loading="lazy">
+          <h3>Item name 6</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+        <article class="card">
+          <span class="badge">New</span>
+          <img src="assets/item7.jpg" alt="Item 7" loading="lazy">
+          <h3>Item name 7</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+        <article class="card">
+          <span class="badge">New</span>
+          <img src="assets/item8.jpg" alt="Item 8" loading="lazy">
+          <h3>Item name 8</h3>
+          <p class="price">৳ Price</p>
+          <a class="btn btn-block" href="#contact">Order Now</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="wrap section about" id="about">
+      <img src="assets/photo.jpg" alt="Portrait of MIM">
+      <div>
+        <h2>About Me</h2>
+        <p>Hello, I am <strong>MIM</strong>. Write a short introduction here: who you are, what you do and why you started your brand.</p>
+        <p>Add a second paragraph about your skills, your goals or the things you offer.</p>
+        <ul>
+          <li><b>Dream</b> Share the vision behind your work.</li>
+          <li><b>Learn</b> Share what you study or teach.</li>
+          <li><b>Grow</b> Share where you are heading next.</li>
+        </ul>
+        <a class="btn" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2>Let's Connect</h2>
+        <p>Send a message to order or to ask a question.</p>
+        <!-- Replace the number and email below with your own -->
+        <div class="contact-links">
+          <a class="btn btn-gold" href="https://wa.me/8801XXXXXXXXX">WhatsApp</a>
+          <a class="btn btn-gold" href="mailto:yourname@example.com">Email Me</a>
+          <a class="btn btn-gold" href="tel:+8801XXXXXXXXX">Call Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="footer-logo" href="#home"><img src="assets/logo.png" alt="MIM logo"></a>
+        <p>Dream · Learn · Grow</p>
+      </div>
+      <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#featured">Offers</a><a href="#new">New Arrival</a><a href="#about">About Me</a></div>
+      <div><h4>Contact</h4><p>Phone: +880 1XXX-XXXXXX</p><p>Email: yourname@example.com</p><p>Address: Your address, Bangladesh</p></div>
+      <div><h4>Follow Me</h4><a href="https://facebook.com/">Facebook</a><a href="https://instagram.com/">Instagram</a><a href="https://youtube.com/">YouTube</a></div>
+    </div>
+    <p class="copy">© 2026 MIM. All rights reserved.</p>
+  </footer>
+</body>
+</html>
